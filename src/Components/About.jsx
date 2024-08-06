@@ -7,9 +7,10 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
-            <p className='text-xl mt-20'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae id nostrum maxime enim atque eum iure sunt laborum harum ullam, asperiores molestiae repudiandae, odio obcaecati alias sint laboriosam culpa, dolore sit fugit quasi a. Illo nesciunt facere unde architecto laudantium inventore quam. Fugit nisi vel in veniam! Quasi, natus beatae!</p>
+            <p className='text-xl mt-20'>Aspiring candidate with a solid foundation in software development, showcasing proficiency in key programming languages and frameworks. Eager to contribute to innovative projects and collaborate effectively within team  environments. Committed to continuous growth and adapting to evolving technologies for
+impactful contributions in dynamic work settings.</p>
             <br />
-            <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio culpa in officia aliquid excepturi consequatur quo non eum totam. Deserunt beatae unde corporis quaerat blanditiis quidem doloribus nulla dolorem ea accusantium repudiandae cupiditate aut id veniam incidunt eaque iste nihil cum, consectetur recusandae quod, quo distinctio quasi sint. Debitis, ipsa.</p>
+            <p className='text-xl'>Completed 11 month internship from "Nokia Solutions and Network" where I have Developed novel UI features with React and JavaScript, implemented Behavior-Driven Development with Cypress to ensure bug-free code, and actively engaged in code reviews and debugging to deliver high-quality software and successful product launches, boosting user engagement and satisfaction.</p>
         </div>
     </div>
   )

@@ -13,34 +13,50 @@ const Portfolio = () => {
     {
       id: 1,
       src: codepen,
+      demo: "https://codepen-clone-64b8d.web.app/home/auth" ,
+      code:"https://github.com/Bobby278tr/CodePen-Clone.git"
     },
     {
       id: 2,
       src: iNotebook,
+      demo: "https://drive.google.com/file/d/1PnWBAL2yGmUciW1W0hYB1K2WZelAqXzE/view",
+      code: "https://github.com/Bobby278tr/iNotebook.git"
     },
     {
       id: 3,
       src: ecommerceWebsite,
+      demo: "https://bobby278tr.github.io/Responsive_E-commerce_Website/",
+      code: "https://github.com/Bobby278tr/Responsive_E-commerce_Website.git"
     },
     {
       id: 4,
       src: news_app,
+      demo: "https://github.com/Bobby278tr/React_DailyDose.git",
+      code: "https://github.com/Bobby278tr/React_DailyDose.git"
     },
     {
       id: 5,
       src: textAnalyzer,
+      demo: "https://bobby278tr.github.io/Text-Analyzer/",
+      code:"https://github.com/Bobby278tr/Text-Analyzer.git"
     },
     {
       id: 6,
       src: stickyNotes,
+      demo: "https://bobby278tr.github.io/Sticky_Notes/",
+      code: "https://github.com/Bobby278tr/Sticky_Notes.git"
     },
     {
       id: 7,
       src: todoList,
+      demo: "https://bobby278tr.github.io/To-Do_List/",
+      code: "https://github.com/Bobby278tr/To-Do_List.git"
     },
     {
       id: 8,
       src: weather,
+      demo:"https://bobby278tr.github.io/Weather-App-/",
+      code:"https://github.com/Bobby278tr/Weather-App-.git"
     },
   ];
   return (
@@ -57,7 +73,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-20">
-          {portfolios.map(({ id, src }) => {
+          {portfolios.map(({ id, src, demo, code }) => {
             return (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
@@ -66,10 +82,10 @@ const Portfolio = () => {
                   className="rounded-md duration-200 w-[400px] h-[200px] hover:scale-105"
                 />
                 <div className="flex items-center justify-center">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button onClick={() => window.open(demo, "_blank")} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Demo
                   </button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button onClick={() => window.open(code, "_blank")} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Code
                   </button>
                 </div>
